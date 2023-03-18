@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://e-commerce-front-end.herokuapp.com")
 @RestController
 @RequestMapping("/api/v1/product")
 public class ProductController {

@@ -12,7 +12,9 @@ import javax.persistence.EntityManager;
 import java.util.ArrayList;
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3000")
+//https://e-commerce-front-end.herokuapp.com/
+//http://localhost:3000
+@CrossOrigin(origins = "https://e-commerce-front-end.herokuapp.com")
 @RestController
 @RequestMapping("/api/v1/order")
 public class OrderDetailController {

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.persistence.EntityManager;
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://e-commerce-front-end.herokuapp.com")
 @RestController
 @RequestMapping("/api/v1/user")
 public class UserController {
